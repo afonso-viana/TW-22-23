@@ -30,3 +30,52 @@ body{
     font-weight: bold;
     border: none;
   }
+
+#items{
+    background-color: red;
+}
+
+.item{
+    background-color: white;
+    width: 48%;
+    color: black;
+    display: flex;
+    padding: 1%;
+    float: left;
+    margin: 1%;
+    text-align: left;
+}
+
+.item .item-img{
+    width: 30%;
+    display: flex;
+}
+
+.item-img img{
+    width: 100%;
+}
+
+.item .item-info{
+    width: 70%;
+    padding-left: 10px;
+}
+
+.br-small{
+    border-radius: 12px;
+}
+
+.item-info{
+    margin: auto;
+}
+
+.item-info h1{
+    color: orange;
+    /*border-bottom: 6px solid orange;
+    width: 40%;*/
+    text-decoration: underline;
+}
+
+.item-info .info-categories{
+    font-size: 12px;
+    margin-top: 5px;
+}
